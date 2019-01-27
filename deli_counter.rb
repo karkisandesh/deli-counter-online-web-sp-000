@@ -13,7 +13,7 @@ def line(katz_deli)
 end
 
 def take_a_number(line_array, names)
-   "Welcome, #{names}. You are number #{count} in line."
+  puts "Welcome, #{names}. You are number #{count} in line."
 end  
 
 def now_serving(katz_deli)
