@@ -4,7 +4,7 @@ def line(katz_deli)
   if  katz_deli.length >= 1
       count = 1
       line_added = []
-      katz_deli.each do |name|
+      katz_deli.each_with_index do |name, index|
       line_added.push("#{count}. #{name}")
       count += 1
         end
