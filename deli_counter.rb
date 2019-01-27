@@ -12,8 +12,10 @@ def line(katz_deli)
   end
 end
 
-def take_a_number(line_array)
+def take_a_number(names)
+  count = 1
   puts "Welcome, #{names}. You are number #{count} in line."
+  count += 1
 end  
 
 def now_serving(katz_deli)
