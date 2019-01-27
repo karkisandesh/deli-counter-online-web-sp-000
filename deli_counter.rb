@@ -17,10 +17,10 @@ def take_a_number(line_array, names)
 end  
 
 def now_serving(katz_deli)
-  names << katz_deli 
-  names.each do |name|
-    puts "Currently serving #{name}."
-    name.shift
+  customers = names << katz_deli 
+  customers.each do |customer|
+    puts "Currently serving #{customer}."
+    
     if name == nil
     puts "There is nobody waiting to be served!"
   end
