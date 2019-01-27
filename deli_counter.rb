@@ -9,9 +9,7 @@ def line(katz_deli)
           count += 1
         end
         puts "The line is currently: #{count}. #{name}"
-        count += 1
-      end
-  else 
+      else 
       puts "The line is currently empty."
     end
 end
