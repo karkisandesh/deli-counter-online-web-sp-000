@@ -1,7 +1,11 @@
 katz_deli = [ ]
 
 def line(katz_deli)
-  puts "The line is currently empty."
+  katz_deli.each do |num| 
+    if num < 0
+      puts "The line is currently empty."
+  else
+    
 end
 
 def take_a_number(line_array, names)
