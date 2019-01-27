@@ -1,10 +1,12 @@
 katz_deli = [ ]
 
 def line(katz_deli)
-  if katz_deli == nil
+  count = 0
+  katz_deli.each do |names|
+  if names == nil
     puts "The line is currently empty."
   else
-   puts "The line is currently: #{num}. #{names}"
+   puts "The line is currently: #{num}. #{count}"
 end
 end
 
