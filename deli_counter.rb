@@ -21,10 +21,8 @@ end
 
 def now_serving(katz_deli)
   if katz_deli.length >= 1
-      push(katz_deli)
-      katz_deli != nill
-      katz_deli.each do |customer|
-      puts "Currently serving #{customer}."
+      katz_deli.each do |first_person|
+      puts "Currently serving #{first_person}."
       katz_deli.shift
     end
   else 
