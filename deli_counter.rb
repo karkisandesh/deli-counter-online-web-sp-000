@@ -21,7 +21,6 @@ def now_serving(katz_deli)
   names.each do |name|
     puts "Currently serving #{name}."
     name.shift
+    puts "There is nobody waiting to be served!"
   end
-  
-  puts "There is nobody waiting to be served!"
 end
