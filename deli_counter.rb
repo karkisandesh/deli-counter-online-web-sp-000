@@ -10,7 +10,7 @@ def line(info)
   # end
 end
 
-def take_a_number(line_array, names)
+def take_a_number(num, names)
    puts "The line is currently: #{num}. #{names}"
 end  
 
