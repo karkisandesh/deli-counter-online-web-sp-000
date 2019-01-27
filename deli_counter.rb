@@ -12,7 +12,7 @@ def line(katz_deli)
   end
 end
 
-def take_a_number(num, names)
+def take_a_number(line_array, names)
   
 end  
 
