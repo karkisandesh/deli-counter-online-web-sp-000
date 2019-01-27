@@ -20,9 +20,9 @@ def now_serving(katz_deli)
   customers = names << katz_deli 
   customers.each do |customer|
     puts "Currently serving #{customer}."
-    
-    if name == nil
-    puts "There is nobody waiting to be served!"
+  end
+    if katz_deli == nil
+      puts "There is nobody waiting to be served!"
   end
   end
 end
