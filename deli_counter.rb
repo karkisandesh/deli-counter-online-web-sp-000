@@ -3,7 +3,8 @@ katz_deli = [ ]
 def line(katz_deli)
   if  katz_deli.length >= 1
       count = 1
-      katz_deli.each do |name|  
+      katz_deli.each do |name|
+        line_added.push(katz_deli)
         puts "The line is currently: #{count}. #{name}"
         count += 1
       end
