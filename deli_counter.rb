@@ -8,7 +8,8 @@ def line(katz_deli)
   else
    puts "The line is currently: #{count}. #{names}"
    count += 1
-end
+    end
+  end
 end
 
 def take_a_number(num, names)
