@@ -21,7 +21,7 @@ end
 
 def now_serving(katz_deli)
   if katz_deli.length >= 1
-      katz_deli.each do |first_person|
+      katz_deli.each_with_index do |first_person, index|
       puts "Currently serving #{first_person}."
       katz_deli.shift
     end
