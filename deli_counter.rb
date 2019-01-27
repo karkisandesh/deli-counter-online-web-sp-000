@@ -21,7 +21,7 @@ def now_serving(katz_deli)
   customers.each do |customer|
     puts "Currently serving #{customer}."
   end
-    if katz_deli == nil
+    while katz_deli == nil
       puts "There is nobody waiting to be served!"
   end
   end
