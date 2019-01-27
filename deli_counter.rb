@@ -13,7 +13,6 @@ def line(katz_deli)
 end
 
 def take_a_number(line_array, names)
-  line_array.each do |people_in_line|
   puts "Welcome, #{people_in_line}. You are number #{people_in_line} in line."
   end
 end  
