@@ -21,8 +21,8 @@ end
 
 def now_serving(katz_deli)
   if katz_deli.length >= 1
-      katz_deli.each_with_index do |first_person, index|
-      puts "Currently serving #{first_person[0]}."
+      katz_deli.each_with_index[0] do |first_person, index|
+      puts "Currently serving #{first_person[index]}."
       katz_deli.shift
     end
   else 
