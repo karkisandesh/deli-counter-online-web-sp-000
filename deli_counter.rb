@@ -16,7 +16,7 @@ def take_a_number(line_array, names)
   puts "Welcome, #{names}. You are number (#{line_array}+1) in line."
 end  
 
-def now_serving
+def now_serving(katz_deli)
   
   puts "Currently serving #{names}."
   
