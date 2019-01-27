@@ -8,7 +8,7 @@ def line(katz_deli)
       line_added.push("#{count}. #{name}")
       count += 1
         end
-        puts "The line is currently: #{count}. #{name}"
+        puts "The line is currently: (line.added.join(" ")"
       else 
       puts "The line is currently empty."
     end
