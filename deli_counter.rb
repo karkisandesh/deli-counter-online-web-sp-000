@@ -8,7 +8,7 @@ def line(katz_deli, names)
     puts "The line is currently: #{num}. #{names}"
   end
 end
-
+end
 def take_a_number(line_array, names)
   
   
