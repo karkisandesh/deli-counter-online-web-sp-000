@@ -21,7 +21,6 @@ end
 
 def now_serving(katz_deli)
   if katz_deli.length >= 1
-    
     push(katz_deli)
     if katz_deli != nill
       katz_deli.each do |customer|
