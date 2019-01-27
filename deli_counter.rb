@@ -17,6 +17,6 @@ def take_a_number(line_array, names)
 end  
 
 def now_serving
-  puts ""Currently serving #{names}.
+  puts "Currently serving #{names}."
   puts "There is nobody waiting to be served!"
 end
