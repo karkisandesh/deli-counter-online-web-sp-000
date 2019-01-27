@@ -1,8 +1,7 @@
 katz_deli = [ ]
 
 def line(number, names)
-  number.each do |num| 
-     if num >=1
+   if num >=1
       puts "The line is currently: #{num}. #{names}"
     else 
       puts "The line is currently empty."
