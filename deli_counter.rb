@@ -5,8 +5,7 @@ def line(katz_deli)
      if num >=1
       puts "The line is currently: #{num}. #{names}"
     else 
-       if num < 0
-        puts "The line is currently empty."
+      puts "The line is currently empty."
     end
   end
 end
