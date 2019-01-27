@@ -1,6 +1,6 @@
 katz_deli = [ ]
 
-def line(number, names)
+def line(info)
    if num >=1
       puts "The line is currently: #{num}. #{names}"
     else 
