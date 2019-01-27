@@ -2,7 +2,7 @@ katz_deli = [ ]
 
 def line(katz_deli)
   katz_deli-1.each do |num| 
-      if num == 
+      if num == 0
         puts "The line is currently empty."
     else
       puts "The line is currently: #{num}. #{names}"
