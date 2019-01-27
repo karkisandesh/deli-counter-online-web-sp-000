@@ -6,7 +6,7 @@ def line(katz_deli)
   if names == nil
     puts "The line is currently empty."
   else
-   puts "The line is currently: #{num}. #{count}"
+   puts "The line is currently: #{count}. #{names}"
    count += 1
 end
 end
