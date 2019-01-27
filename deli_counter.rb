@@ -6,6 +6,8 @@ def line(katz_deli)
       line_added = []
       katz_deli.each do |name|
           line_added.push("#{count}. #{name}")
+          count += 1
+        end
         puts "The line is currently: #{count}. #{name}"
         count += 1
       end
