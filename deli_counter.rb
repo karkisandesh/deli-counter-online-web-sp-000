@@ -23,9 +23,8 @@ def now_serving(katz_deli)
       puts "Currently serving #{customer}."
     end
     katz_deli.shift
-  end
-    while katz_deli == nil
-      puts "There is nobody waiting to be served!"
+  else 
+    puts "There is nobody waiting to be served!"
     end
   end
 end
