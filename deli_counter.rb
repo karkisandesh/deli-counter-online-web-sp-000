@@ -17,8 +17,7 @@ def take_a_number(line_array, names)
 end  
 
 def now_serving(katz_deli)
-  customers = names << katz_deli 
-  customers.each do |customer|
+  katz_deli.each do |customer|
     puts "Currently serving #{customer}."
   end
     while katz_deli == nil
