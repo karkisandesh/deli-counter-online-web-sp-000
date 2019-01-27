@@ -1,9 +1,9 @@
 katz_deli = [ ]
 
 def line(katz_deli)
-  count = 1
-  katz_deli.push(katz_deli)
-  if katz_deli.length >= 1
+  if  katz_deli.length >= 1
+      count = 1
+      katz_deli.push(katz_deli)
       katz_deli.each do |name|  
       puts "The line is currently: #{count}. #{name}"
       count += 1
