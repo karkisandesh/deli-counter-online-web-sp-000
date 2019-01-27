@@ -1,7 +1,7 @@
 katz_deli = [ ]
 
 def line(katz_deli)
-  count = 0
+  count = 1
   if katz_deli.length >= 1
       katz_deli.each do |name|  
       puts "The line is currently: #{count}. #{name}"
