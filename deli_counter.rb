@@ -1,9 +1,11 @@
 katz_deli = [ ]
 
 def line(info)
-  puts "The line is currently empty."
-  
+  if katz_deli == nil
+    puts "The line is currently empty."
+  else
    puts "The line is currently: #{num}. #{names}"
+end
 end
 
 def take_a_number(num, names)
