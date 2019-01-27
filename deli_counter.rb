@@ -1,7 +1,7 @@
 katz_deli = [ ]
 
 def line(katz_deli)
-  katz_deli.each do |num| 
+  katz_deli.each do |num, names| 
      if num >=1
       puts "The line is currently: #{num}. #{names}"
     else 
