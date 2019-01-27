@@ -11,8 +11,7 @@ def line(info)
 end
 
 def take_a_number(line_array, names)
-  
-  
+   puts "The line is currently: #{num}. #{names}"
 end  
 
 def now_serving
