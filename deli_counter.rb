@@ -17,6 +17,7 @@ def take_a_number(line_array, names)
 end  
 
 def now_serving(katz_deli)
+  if katz_deli.first != katz_deli.first
   katz_deli.each do |customer|
     puts "Currently serving #{customer}."
   end
