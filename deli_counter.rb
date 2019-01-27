@@ -18,8 +18,11 @@ end
 
 def now_serving(katz_deli)
   katz_deli.push(katz_deli)
-    katz_deli.each do |customer|
-    puts "Currently serving #{customer}."
+    if katz_deli != nill
+      katz_deli.each do |customer|
+      puts "Currently serving #{customer}."
+    end
+    katz_deli.shift
   end
     while katz_deli == nil
       puts "There is nobody waiting to be served!"
